@@ -1063,6 +1063,7 @@ def process_player(entry, api_key, region, processed_ids_lock, processed_ids):
     if participants:
         safe_print("      Participantes da partida:")
         for idx, participant in enumerate(participants, start=1):
+            send_friend_request(participant["name"], participant["tag"])
             safe_print(f"        {idx:02d}. {participant['display']}")
 
     return {
