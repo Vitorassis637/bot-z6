@@ -18,7 +18,7 @@ riot-login:
                 path: "/"
                 persistent: false
                 secureOnly: true
-                value: "aDyUNDx6dq_9insK8YnxorrsQgAOv3nWKh_YqKC6TXQ"
+                value: "AnfyW575LEuD5Fxz7LZ37CJsT3FCTlJXBJ-13VZA-hQ"
             -   domain: "auth.riotgames.com"
                 hostOnly: true
                 httpOnly: true
@@ -42,7 +42,7 @@ riot-login:
                 path: "/"
                 persistent: true
                 secureOnly: true
-                value: "ZKjOEeju2Hn4cL4RJQxDMf4GAKKLfDbZp1iUOBHLb88-1774404593.2973275-1.0.1.1-Rt4fAXMQ5yswwjjOH0FEEiE6xf7HcKWzZF9KcwHC82WmjRhzynP51kKvzW2xo_I9Vqiu5uxL6B3WFnkwI0OYWelYpa19IwoHOD7jQLvG84IAj17xsbck.ip1lh0FphO."
+                value: "gW50TSQfb2G3rV6gHUMe9MC9V_A0bH80.WrInryTRcw-1774407699.6270473-1.0.1.1-QYpokuQtjx297lEVN1I4q2tWVxXf1aYtUAzrQ3OBkuQul3GQrPw93jIWJIMQqUF.h92YAtVJvdARjDUo4zoI5UmwfW9y69guqrdfp7lTcNx8e_JOMp.o.Ab0e578wXww"
             -   domain: "auth.riotgames.com"
                 hostOnly: true
                 httpOnly: true
@@ -50,7 +50,7 @@ riot-login:
                 path: "/"
                 persistent: true
                 secureOnly: true
-                value: "9795b827-d864-542c-a4e5-5b76decb4224"
+                value: "ed77fff5-fe39-5c7b-adca-304a8aa48cc9"
             -   domain: "auth.riotgames.com"
                 hostOnly: true
                 httpOnly: false
@@ -58,7 +58,7 @@ riot-login:
                 path: "/"
                 persistent: true
                 secureOnly: true
-                value: "LSAki3WTW-BcxgbDACIVuA.wq6IFLn4ET_Xyaq1PVtMzA"
+                value: "79mwK3vWbd2kv1ooTpumnA.xJKxGGjjEiEJtpkT0mByoA"
             -   domain: "auth.riotgames.com"
                 hostOnly: true
                 httpOnly: true
@@ -66,15 +66,15 @@ riot-login:
                 path: "/"
                 persistent: true
                 secureOnly: true
-                value: "eyJhbGciOiJIUzI1NiJ9.eyJsb2dpblRva2VuIjoiMWQ3ZjY1MDctNmExMy00MTk1LTk4YTQtMWE0MDczOTgzZjZjIiwic3ViIjoiOTc5NWI4MjctZDg2NC01NDJjLWE0ZTUtNWI3NmRlY2I0MjI0Iiwic2VyaWVzVG9rZW4iOiJkMGUzYzBkMC0yYzFhLTQ2MzUtODczYy04ZTg1MWUzMDJhMzIiLCJzc2lkIjoiTFNBa2kzV1RXLUJjeGdiREFDSVZ1QS53cTZJRkxuNEVUX1h5YXExUFZ0TXpBIiwiaWF0IjoxNzc0NDA0Njc0fQ.I79ZeOpd3289JCLnU4_mUB6zRH0zqkDj1c1RtdIljIk"
+                value: "eyJhbGciOiJIUzI1NiJ9.eyJsb2dpblRva2VuIjoiOWZhYTE3YTgtOTdkYS00YjA5LWFjMzgtNTBmMmUxZTQyZDExIiwic3ViIjoiZWQ3N2ZmZjUtZmUzOS01YzdiLWFkY2EtMzA0YThhYTQ4Y2M5Iiwic2VyaWVzVG9rZW4iOiI0MDRhZmExZi1iMjEzLTQyYTItYTMwNy0yMTdhZjg0NTdmNmMiLCJzc2lkIjoiNzltd0szdldiZDJrdjFvb1RwdW1uQS54Skt4R0dqakVpRUp0cGtUMG1CeW9BIiwiaWF0IjoxNzc0NDA4MjQzfQ.ttzoW-_9c8EExv7Ti54Y5EfbTP1Hc9dcckgCuE56kcY"
 rso-authenticator:
     tdid:
         domain: "riotgames.com"
-        expiryTime: 1805940602
+        expiryTime: 1805943706
         hostOnly: false
         httpOnly: true
         name: "tdid"
         path: "/"
         persistent: true
         secureOnly: true
-        value: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImU3YzRiODk2LTA4MjgtNGI0Ni04ZWYyLTU2N2I2NWQ4NjRkYyIsIm5vbmNlIjoiTWxjVkFxaUprcXc9IiwiaWF0IjoxNzc0NDA0NjAyfQ.JQN6P6P4-LO7G8G276N20XJIa9zfn3iqbP_1kRixwqA"
+        value: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImU3YzRiODk2LTA4MjgtNGI0Ni04ZWYyLTU2N2I2NWQ4NjRkYyIsIm5vbmNlIjoiTWxjVkFxaUprcXc9IiwiaWF0IjoxNzc0NDA3NzA3fQ.KdWlXz9mZyt4XLJKFQRa7tLUBl-aafRghjN_PaGkki0"

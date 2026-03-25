@@ -578,6 +578,8 @@ def launch_and_login_save_session(username, user_password):
         pyautogui.press('space')  # marca o checkbox
         time.sleep(0.2)
 
+        pyautogui.press('tab')  # Tab para o botao entrar
+        
         # Enter para confirmar login
         pyautogui.press('enter')
 
@@ -712,7 +714,7 @@ def cancelar_pedidos_pendentes():
 # ─────────────────────────────────────────────
 
 ADDED_PLAYERS_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "added_players.json")
-DISCORD_URL = "https://discord.gg/9TYwNpBQR2"
+DISCORD_URL = "https://www.z6services.com.br/"
 
 DISCORD_MESSAGES = [
     f"Você sente que joga melhor do que o seu elo? Muita gente fica presa no Elo Hell mesmo jogando bem. A gente só te ajuda a chegar no elo que você merece. {DISCORD_URL}",
@@ -1064,6 +1066,7 @@ def process_player(entry, api_key, region, processed_ids_lock, processed_ids):
         safe_print("      Participantes da partida:")
         for idx, participant in enumerate(participants, start=1):
             send_friend_request(participant["name"], participant["tag"])
+            register_sent_requests([participant], account_username="(auto)")  # registra cada participante adicionado
             safe_print(f"        {idx:02d}. {participant['display']}")
 
     return {
